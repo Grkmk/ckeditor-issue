@@ -15,12 +15,6 @@
 		]
 	},
 	"dependencies": {
-		"@ckeditor/ckeditor5-react": "^6.2.0",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"react-router-dom": "6.17.0"
-	},
-	"devDependencies": {
 		"@ckeditor/ckeditor5-autoformat": "^40.2.0",
 		"@ckeditor/ckeditor5-basic-styles": "^40.2.0",
 		"@ckeditor/ckeditor5-dev-translations": "^39.5.1",
@@ -30,14 +24,21 @@
 		"@ckeditor/ckeditor5-link": "^40.2.0",
 		"@ckeditor/ckeditor5-list": "^40.2.0",
 		"@ckeditor/ckeditor5-paragraph": "^40.2.0",
+		"@ckeditor/ckeditor5-react": "^6.2.0",
 		"@ckeditor/ckeditor5-table": "^40.2.0",
 		"@ckeditor/ckeditor5-theme-lark": "^40.2.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-router-dom": "6.17.0"
+	},
+	"devDependencies": {
 		"@types/react": "^18.2.0",
 		"@types/react-dom": "^18.2.0",
 		"@types/react-router-dom": "^5.3.3",
-        "babel-loader": "^8.2.3",
-        "babel-preset-react-app": "^10.0.1",
+		"babel-loader": "^8.2.3",
+		"babel-preset-react-app": "^10.0.1",
 		"css-loader": "^5.2.7",
+		"eslint": "^8.56.0",
 		"eslint-webpack-plugin": "^3.1.1",
 		"file-loader": "^6.2.0",
 		"fork-ts-checker-webpack-plugin": "7.2.1",
